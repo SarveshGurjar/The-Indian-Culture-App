@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">AgencyApp</string>
+    <string name="app_name">Aamchi Mumbai</string>
     <string name="gettingstart">Grow your business with Zomo.</string>
-    <string name="gettingsubtext">An international text agency with some of the industrys sharpest and most creative writers stand ready to create the texts you need.</string>
+    <string name="gettingsubtext">The Biggest metropolis city of Maharashtra </string>
+    <string name="get_started">Lets go</string>
+    <string name="todo">TODO</string>
 </resources>
