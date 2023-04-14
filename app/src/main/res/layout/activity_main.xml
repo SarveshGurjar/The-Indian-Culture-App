@@ -45,7 +45,7 @@
 
         <LinearLayout
             android:id="@+id/getstartedbtn"
-            android:layout_width="198dp"
+            android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginTop="30dp"

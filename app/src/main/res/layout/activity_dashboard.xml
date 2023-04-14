@@ -24,8 +24,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-
             <LinearLayout
                 android:id="@+id/linearLayout"
                 android:layout_width="match_parent"
@@ -73,8 +71,9 @@
                         app:cardElevation="50dp">
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="124dp"
+                            android:id="@+id/artbtn"
+                            android:layout_width="161dp"
+                            android:layout_height="129dp"
                             android:background="@drawable/gradientcard"
                             android:orientation="vertical"
                             android:paddingHorizontal="10dp"
@@ -106,7 +105,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="125dp"
                             android:background="@drawable/uigradient"
                             android:orientation="vertical"
                             android:paddingHorizontal="10dp"
