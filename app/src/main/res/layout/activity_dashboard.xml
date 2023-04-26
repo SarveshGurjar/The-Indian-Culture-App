@@ -34,6 +34,7 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/wlcmbtn"
                     android:layout_width="match_parent"
                     android:layout_height="88dp"
                     android:layout_weight="1"
@@ -74,7 +75,7 @@
                             android:id="@+id/artbtn"
                             android:layout_width="161dp"
                             android:layout_height="129dp"
-                            android:background="@drawable/gradientcard"
+                            android:background="@drawable/artbtn"
                             android:orientation="vertical"
                             android:paddingHorizontal="10dp"
                             android:paddingVertical="20dp">
@@ -104,12 +105,14 @@
                         app:cardElevation="50dp">
 
                         <LinearLayout
+                            android:id="@+id/cuisbtn"
                             android:layout_width="match_parent"
-                            android:layout_height="125dp"
+                            android:layout_height="match_parent"
                             android:background="@drawable/uigradient"
                             android:orientation="vertical"
                             android:paddingHorizontal="10dp"
-                            android:paddingVertical="20dp">
+                            android:paddingVertical="20dp"
+                            tools:visibility="visible">
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -145,6 +148,7 @@
                         app:cardElevation="50dp">
 
                         <LinearLayout
+                            android:id="@+id/festbtn"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/uigradient"
@@ -178,6 +182,7 @@
                         app:cardElevation="50dp">
 
                         <LinearLayout
+                            android:id="@+id/tourbtn"
                             android:layout_width="match_parent"
                             android:layout_height="181dp"
                             android:background="@drawable/gradientcard"
@@ -357,6 +362,7 @@
 
 
                     </LinearLayout>
+
 
                 </androidx.cardview.widget.CardView>
 

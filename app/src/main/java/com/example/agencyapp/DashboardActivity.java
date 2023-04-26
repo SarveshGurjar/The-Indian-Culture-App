@@ -15,7 +15,7 @@ LinearLayout btn;
         btn = findViewById(R.id.artbtn);
 
         btn.setOnClickListener(v->{
-            startActivity(new Intent(this,artactivity.class));
+            startActivity(new Intent(this, art.class));
         });
     }
 }

@@ -8,17 +8,8 @@
     android:background="@color/bgcolor"
     android:padding="15dp"
     android:rotationX="-360"
-    tools:context=".artactivity">
+    tools:context=".art">
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:fillViewport="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -31,19 +22,24 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="131dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Welcome \nto Aamchi Mumbai"
+                android:text="Arts"
                 android:textAlignment="center"
                 android:textColor="@color/textcolor"
-                android:textSize="34sp"
+                android:textSize="55dp"
                 android:textStyle="bold" />
-
-
         </LinearLayout>
 
-
-    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="403dp"
+        android:layout_height="615dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
