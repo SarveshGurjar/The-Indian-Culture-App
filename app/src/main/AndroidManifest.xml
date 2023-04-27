@@ -6,12 +6,17 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/indian_flag_5368686"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/indian_flag_5368686"
         android:supportsRtl="true"
         android:theme="@style/Theme.AgencyApp"
         tools:targetApi="31">
+        <activity android:name=".festival"
+            android:exported="false"/>
+        <activity
+            android:name=".cuisines"
+            android:exported="false"/>
         <activity
             android:name=".art"
             android:exported="false" />
