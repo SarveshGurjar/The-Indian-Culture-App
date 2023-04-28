@@ -21,10 +21,10 @@ TextView btn;
         btn3= findViewById(R.id.festbtn);
         btn= findViewById(R.id.calbtn);
 
-        btn.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
-        btn1.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
-        btn2.setOnClickListener(v-> startActivity(new Intent(this,festival.class)));
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
+        btn2.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
+        btn3.setOnClickListener(v-> startActivity(new Intent(this,festival.class)));
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 gotoUrl("https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&title=EVENT%20CALENDAR&src=b21rYXJkb2dyYTk1QGdtYWlsLmNvbQ&color=%23039BE5&authuser=2");
