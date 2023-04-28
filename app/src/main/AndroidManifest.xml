@@ -12,13 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgencyApp"
         tools:targetApi="31">
-        <activity android:name=".tourism"
-            android:exported="false"/>
-        <activity android:name=".festival"
-            android:exported="false"/>
+        <activity
+            android:name=".Authentication"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".tourism"
+            android:exported="false" />
+        <activity
+            android:name=".festival"
+            android:exported="false" />
         <activity
             android:name=".cuisines"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".art"
             android:exported="false" />
