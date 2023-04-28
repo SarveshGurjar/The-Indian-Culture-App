@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
-LinearLayout btn1,btn2,btn3;
+LinearLayout btn1,btn2,btn3,btn4;
 TextView btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +19,13 @@ TextView btn;
         btn1= findViewById(R.id.artbtn);
         btn2= findViewById(R.id.cuisbtn);
         btn3= findViewById(R.id.festbtn);
+        btn4= findViewById(R.id.tourbtn);
         btn= findViewById(R.id.calbtn);
 
         btn1.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
         btn2.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
         btn3.setOnClickListener(v-> startActivity(new Intent(this,festival.class)));
+        btn4.setOnClickListener(v-> startActivity(new Intent(this,tourism.class)));
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
