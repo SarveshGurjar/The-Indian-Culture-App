@@ -6,23 +6,25 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class DashboardActivity extends AppCompatActivity {
-LinearLayout btn1,btn2,btn3,btn4;
+
+private ImageView btn1,btn2,btn3,btn4;
 TextView btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-        btn1= findViewById(R.id.artbtn);
-        btn2= findViewById(R.id.cuisbtn);
-        btn3= findViewById(R.id.festbtn);
-        btn4= findViewById(R.id.tourbtn);
+        btn1= findViewById(R.id.arts);
+        btn2= findViewById(R.id.cuisines);
+        btn3= findViewById(R.id.festival);
+        btn4= findViewById(R.id.tourism);
         btn= findViewById(R.id.calbtn);
 
-        btn1.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
+        btn1.setOnClickListener(v-> startActivity(new Intent(this, art_2.class)));
         btn2.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
         btn3.setOnClickListener(v-> startActivity(new Intent(this,festival.class)));
         btn4.setOnClickListener(v-> startActivity(new Intent(this,tourism.class)));
