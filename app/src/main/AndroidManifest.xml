@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AgencyApp"
         tools:targetApi="31">
-        <activity android:name=""
+        <activity android:name=".tourism"
+            android:exported="false"/>
         <activity android:name=".festival"
             android:exported="false"/>
         <activity
