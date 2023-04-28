@@ -169,7 +169,7 @@ public class add_art extends AppCompatActivity {
 //        includes constructors
 //        parameter to pass -> 1. title   2.imageUrl  3.date  4,time  5.key
 
-        artsgetset eventsgetset = new artsgetset(artTitle,artDescription,imgurl, uniqueKey);
+        Eventsgetset eventsgetset = new Eventsgetset(artTitle,artDescription,imgurl, uniqueKey);
         imgdata_reference.child(uniqueKey).setValue(eventsgetset).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {

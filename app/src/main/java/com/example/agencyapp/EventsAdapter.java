@@ -1,6 +1,5 @@
 package com.example.agencyapp;
 
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,10 +13,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.squareup.picasso.Picasso;
 
-import javax.annotation.Nullable;
-
-public class Arts_Adapter extends FirebaseRecyclerAdapter<artsgetset,Arts_Adapter.myViewHolder> {
-
+public class EventsAdapter extends FirebaseRecyclerAdapter<Eventsgetset,EventsAdapter.myViewHolder> {
 
     /**
      * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
@@ -25,36 +21,42 @@ public class Arts_Adapter extends FirebaseRecyclerAdapter<artsgetset,Arts_Adapte
      *
      * @param options
      */
-
-    public Arts_Adapter(@Nullable FirebaseRecyclerOptions<artsgetset> options){
+    public EventsAdapter(@NonNull FirebaseRecyclerOptions<Eventsgetset> options) {
         super(options);
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull Arts_Adapter.myViewHolder holder, int position, @NonNull artsgetset model) {
-        holder.Title.setText(model.getTitle());
-        holder.Description.setText((model.getDescription()));
+    protected void onBindViewHolder(@NonNull myViewHolder holder, int position, @NonNull Eventsgetset model) {
+        //Read Text
 
 
 
-        //Read Image
-        Picasso.get()
-                .load(model.getImage())
-                .into(holder.img);
-    }
+            holder.Title.setText(model.getTitle());
+            holder.Description.setText((model.getDescription()));
+
+
+
+            //Read Image
+            Picasso.get()
+                    .load(model.getImage())
+                    .into(holder.img);
+
+
+        }
+
 
     @NonNull
     @Override
-    public Arts_Adapter.myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-
+    public myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.art_layout,parent,false);
 
         return new myViewHolder(view);
+
     }
 
     class myViewHolder extends RecyclerView.ViewHolder{
         ImageView img;
-        TextView Title , Description;
+        TextView Title , Description , RegLink ;
 
 
         public myViewHolder(@NonNull View itemView){
@@ -68,4 +70,5 @@ public class Arts_Adapter extends FirebaseRecyclerAdapter<artsgetset,Arts_Adapte
         }
 
     }
+
 }

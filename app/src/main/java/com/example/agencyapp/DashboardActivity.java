@@ -24,7 +24,7 @@ TextView btn;
         btn4= findViewById(R.id.tourism);
         btn= findViewById(R.id.calbtn);
 
-        btn1.setOnClickListener(v-> startActivity(new Intent(this, art_2.class)));
+        btn1.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
         btn2.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
         btn3.setOnClickListener(v-> startActivity(new Intent(this,festival.class)));
         btn4.setOnClickListener(v-> startActivity(new Intent(this,tourism.class)));

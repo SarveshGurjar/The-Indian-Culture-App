@@ -52,7 +52,7 @@ public class Authentication extends AppCompatActivity {
 
 //    finding IDS
         google_btn=findViewById(R.id.Glogin);
-        admin = findViewById(R.id.admin);
+//        admin = findViewById(R.id.admin);
 
         //Firebase
         auth = FirebaseAuth.getInstance();

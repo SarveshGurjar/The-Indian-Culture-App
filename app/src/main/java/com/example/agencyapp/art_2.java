@@ -5,11 +5,22 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.ProgressBar;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
+
 public class art_2 extends AppCompatActivity {
+    private RecyclerView eventsrecyclerview;
+    private ArrayList<Eventsgetset> list;
+    private EventsAdapter adapter;
+    EventsAdapter EA;
+
+    private DatabaseReference reference;
+
     Arts_Adapter aAdapter;
     private RecyclerView artsrecyclerview;
 
@@ -18,33 +29,33 @@ public class art_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_art2);
 
-        artsrecyclerview = findViewById(R.id.artsrecyclerview);
+        eventsrecyclerview = findViewById(R.id.eventsrecyclerview);
 
-        //        to reverse the recycler view and show the latest post on top
-        LinearLayoutManager LayoutMangager = new LinearLayoutManager(this);
+        LinearLayoutManager LayoutMangager = new LinearLayoutManager(art_2.this);
         LayoutMangager.setReverseLayout(true);
         LayoutMangager.setStackFromEnd(true);
-        artsrecyclerview.setLayoutManager(LayoutMangager);
+        eventsrecyclerview.setLayoutManager(LayoutMangager);
 
-        FirebaseRecyclerOptions<artsgetset> options =
-                new FirebaseRecyclerOptions.Builder<artsgetset>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("ART"), artsgetset.class)
+
+        FirebaseRecyclerOptions<Eventsgetset> options =
+                new FirebaseRecyclerOptions.Builder<Eventsgetset>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Art"), Eventsgetset.class)
                         .build();
 
-        aAdapter = new Arts_Adapter(options);
-        artsrecyclerview.setAdapter(aAdapter);
+        EA = new EventsAdapter(options);
+        eventsrecyclerview.setAdapter(EA);
     }
 
 
     @Override
     public void onStart() {
         super.onStart();
-        aAdapter.startListening();
+        EA.startListening();
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        aAdapter.stopListening();
+        EA.stopListening();
     }
 }
