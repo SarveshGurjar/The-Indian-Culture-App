@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678697624183",
+    "project_id": "agencyapp-8a407",
+    "storage_bucket": "agencyapp-8a407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678697624183:android:4ff16f14b6e1569ef7dc72",
+        "android_client_info": {
+          "package_name": "com.example.agencyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678697624183-i4gh0lasj50ck5262cl7k80oatt5ooqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agencyapp",
+            "certificate_hash": "603e9deb20a94e5bbab203d417d1378fceead276"
+          }
+        },
+        {
+          "client_id": "678697624183-vmdk410f53nissn9as0j9dl8gocmtdpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRSwdXNlfAG2ztlpQ5QOk6QPPTWFqGR9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678697624183-o3lb9b176jc4583m5jui5oealdecplhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
