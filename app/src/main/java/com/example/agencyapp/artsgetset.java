@@ -4,10 +4,10 @@ public class artsgetset {
     String Title , Description , Image , Key;
 
     public artsgetset(String title, String description ,String image,String key) {
-        Title = title;
-        Description = description;
-        Image = image;
-        Key = key;
+        this.Title = title;
+        this.Description = description;
+        this.Image = image;
+        this.Key = key;
     }
 
 

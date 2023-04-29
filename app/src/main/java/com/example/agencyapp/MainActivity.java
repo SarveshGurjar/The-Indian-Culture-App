@@ -40,7 +40,7 @@ private TextView admin;
 
 
         login = findViewById(R.id.Glogin);
-        admin = findViewById(R.id.admin);
+//        admin = findViewById(R.id.admin);
 
         //Firebase
         auth = FirebaseAuth.getInstance();
@@ -57,12 +57,12 @@ private TextView admin;
                 SignIn();
             }
         });
-        admin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,add_art.class));
-            }
-        });
+//        admin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(MainActivity.this,add_art.class));
+//            }
+//        });
 
     }
 
@@ -123,3 +123,5 @@ private TextView admin;
     }
 
 }
+
+//aa
