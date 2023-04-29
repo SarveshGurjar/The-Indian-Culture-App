@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="6dp"
+    android:background="@color/white"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/uigradient"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+  />
+
+
+        <ImageView
+            android:id="@+id/artbanner"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/arttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/artdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
