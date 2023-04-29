@@ -78,276 +78,95 @@
 
                             android:layout_width="380dp"
                             android:layout_height="150dp"
-                            android:src="@drawable/jehangir"
+                            android:src="@drawable/gateway_of_india"
                             android:layout_gravity="center_horizontal"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="JEHANGIR"
+                            android:text="GATEWAY OF INIDA"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="5dp"
                             android:textStyle="bold"
                             android:textSize="22dp"
                             android:textColor="@color/white"
-/>
+                            />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:justificationMode="inter_word"
                             android:inputType="textMultiLine"
-                            android:text="Located in South Mumbai, Jehangir Art Gallery is one of the oldest and most well-known art galleries in Mumbai. It was founded in 1952 and has been showcasing contemporary Indian art ever since. It hosts a variety of exhibitions and workshops throughout the year.
-"                           android:textColor="@color/white"
+android:text="The Gateway of India is, without doubt, one of the most popular tourist hotspots of Mumbai. Sitting proudly on the Apollo Bunder, it overlooks the Arabian Sea."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+android:text="The structure in itself is a made of yellow basalt and solid concrete and is embellished with numerous Muslim and Hindu motifs as well. The basalt arch of the Gateway served as the entry and exit access to India through waterways before independence and was the exit point from where the last British ship left India for England. There are statues of Swami Vivekananda and Chhatrapati Shivaji that have been installed near the Gateway as well."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="3dp"/>
+
+                        />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/marine"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MARINE DRIVE"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+android:text="Marine Drive is the most easily identifiable landmark associated with Mumbai and is indicative of the glamor and glitter of the city. It is essentially 3.6 km long, arc-shaped boulevard along the South Mumbai coast that starts at the southern end of Nariman Point and ends at Girgaum Chowpatty, popularly known as Chowpatty Beach. The coast wraps the Arabian sea and is the best place in Mumbai to watch the sunset or even to just take a leisurely stroll by the sea any time of the day or night. At night, when the whole coastline lights up, it justifies its other moniker i.e. Queen's Necklace."
+                            android:textColor="@color/white"
                             android:padding="10dp"
                             android:layout_marginTop="10dp"/>
 
 
-                            />
+
+                        />
 
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/vadapav" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="176dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="25sp"
-                                android:text="Vadapav.... all time favourite street food."
-                                android:textColor="#fff"
-                                android:textSize="26dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>

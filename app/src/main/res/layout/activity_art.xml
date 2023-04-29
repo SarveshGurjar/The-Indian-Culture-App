@@ -60,48 +60,50 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/kala_ghoda"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/vadapav" />
-
-                        <LinearLayout
+                            android:text="KALA GHODA"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="176dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="25sp"
-                                android:text="Vadapav.... all time favourite street food."
-                                android:textColor="#fff"
-                                android:textSize="26dp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="The Kala Ghoda Arts Festival is annual festival, nine days long, commencing always on the first Saturday of February and closing is always on the second Sunday in February, in the Kala Ghoda area of South Mumbai, India. The festival sections are visual arts, dance, music, theatre, cinema, literature including children's literature as a sub section, workshops, heritage walks, urban design and architecture"
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -109,47 +111,50 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/jehangir"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
+                            android:text="JEHANGIR"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="Located in South Mumbai, Jehangir Art Gallery is one of the oldest and most well-known art galleries in Mumbai. It was founded in 1952 and has been showcasing contemporary Indian art ever since. It hosts a variety of exhibitions and workshops throughout the year.
+"                           android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -157,97 +162,49 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/national_gallery_of_modern_art_mumbai"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
+                            android:text="National Gallery of Modern Art"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="The National Gallery of Modern Art (NGMA) is located in Colaba and is the premier art gallery in India. It was established in 1954 and has an extensive collection of modern and contemporary Indian art. The gallery hosts both permanent and temporary exhibitions."                           android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/vadapav" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="176dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="25sp"
-                                android:text="Vadapav.... all time favourite street food."
-                                android:textColor="#fff"
-                                android:textSize="26dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -255,47 +212,51 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/cl"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
+                            android:text="Chatterjee And Lal:"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="Located in Colaba, Chatterjee And Lal is a contemporary art gallery that showcases emerging and established artists. It was founded in 2003 and has gained a reputation for its cutting-edge exhibits and experimental programming.
+"
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -303,50 +264,56 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/sakshi_artgalley"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
+                            android:text="Sakshi Art Gallery"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="With locations in Colaba and Worli, Sakshi Gallery is one of the leading contemporary art galleries in Mumbai. It showcases a diverse range of contemporary art, including painting, sculpture, and new media."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
+
+
+
+
+
 
             </LinearLayout>
 

@@ -55,53 +55,56 @@
                 app:layout_constraintStart_toStartOf="@+id/linearLayout"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/vadapav"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/vadapav" />
-
-                        <LinearLayout
+                            android:text="VADA PAV"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="176dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="25sp"
-                                android:text="Vadapav.... all time favourite street food."
-                                android:textColor="#fff"
-                                android:textSize="26dp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+                            android:text="If you are not a Mumbaikar, this is something which should not be skipped. Whether it”s for breakfast, lunch or teatime, Vada Pav can go with anything. It is made from mashed boiled potatoes mixed with green chillies, lime juice, turmeric, ginger, garlic and coriander leaves, which is then dipped in a besan (gram flour) batter and finally fried. It is usually dished up with green chutney or fried green chillies"
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -109,47 +112,50 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/pani"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
+                            android:text="PAANI PURI"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+    android:text="The water is infused with flavors from fresh mint and cilantro. And then of course, there’s a nutritious filling. The idea is to fill the puris with hot mashed whole split peas (vatana ragda), and cold minty water and gulp it down like a tequila shot. When the puri crumbles inside your mouth, the contrasting temperatures and flavours will blow your mind."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -157,97 +163,50 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/paaav_bhaji"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
+                            android:text="PAV BHAJI"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+android:text="This specialty dish from the bylanes of Mumbai is made of mashed steamed mixed vegetables (mainly potatoes, peas, tomatoes, onions and green pepper) cooked in spices and loads of butter. It is eaten with pao, which is shallow fried in even more butter and served with chopped onions. Sometimes cheese and paneer (cottage cheese) are added. People from all over India come to Mumbai to eat pao bhaji."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/vadapav" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="176dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="25sp"
-                                android:text="Vadapav.... all time favourite street food."
-                                android:textColor="#fff"
-                                android:textSize="26dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -255,97 +214,50 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
+                    app:cardBackgroundColor="@color/white"
                     app:cardElevation="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/uigradient"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/gradientcard"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:layout_marginTop="10dp"
+
+                            android:layout_width="380dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/ragda"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/marine_drive" />
-
-                        <LinearLayout
+                            android:text="RAGDA PATTICE"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:text="My city in the evening looks like \nQUEENS NECKLACE"
-                                android:textColor="#fff"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
+                            android:layout_height="match_parent"
+                            android:justificationMode="inter_word"
+                            android:inputType="textMultiLine"
+android:text="It is the combination of the two delicious dishes, Ragda (soft, spicy, rugged-flavoured chickpeas) and Pattice (mashed potato shaped into fat pattice and fried). The best way to have it is by crushing the ragda with the pattice with chopped onions, tangy lip-smacking sauce and spicy green chutney. Mix up everything and experience what this city tastes like."
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"/>
 
 
-                        </LinearLayout>
-
+                        />
 
                     </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/bgcolor"
-                    app:cardElevation="50dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/uigradient"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="10dp"
-                        android:paddingVertical="20dp">
-
-                        <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/urbun_art" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="186dp"
-                                android:layout_marginVertical="2dp"
-                                android:layout_weight="1"
-                                android:paddingTop="30sp"
-                                android:text="The Mumbai Urban Art Festival (MUAF)"
-                                android:textColor="#fff"
-                                android:textSize="25dp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>

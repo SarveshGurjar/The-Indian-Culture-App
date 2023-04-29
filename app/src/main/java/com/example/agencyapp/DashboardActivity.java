@@ -1,5 +1,6 @@
 package com.example.agencyapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,10 +11,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class DashboardActivity extends AppCompatActivity {
 
 private ImageView btn1,btn2,btn3,btn4;
-TextView btn;
+    GoogleSignInClient client;
+
+TextView btn,logout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +31,7 @@ TextView btn;
         btn3= findViewById(R.id.festival);
         btn4= findViewById(R.id.tourism);
         btn= findViewById(R.id.calbtn);
+//        logout = findViewById(R.id.logout);
 
         btn1.setOnClickListener(v-> startActivity(new Intent(this, art.class)));
         btn2.setOnClickListener(v-> startActivity(new Intent(this,cuisines.class)));
@@ -35,10 +44,28 @@ TextView btn;
             }
         });
 
+//        logout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//               signOut();
+//            }
+//        });
+
     }
 
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
         startActivity(new Intent(new Intent().ACTION_VIEW,uri));
     }
+//
+//    private void signOut() {
+//        client.signOut()
+//                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<Void> task) {
+//                        // ...
+//                        startActivity(new Intent(DashboardActivity.this,MainActivity.class));
+//                    }
+//                });
+//    }
 }
